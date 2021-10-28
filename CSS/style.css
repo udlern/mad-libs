@@ -2,7 +2,13 @@ body {
     background-color: lavender;
 }
 h1 {
-    font-size: 100px;
+    font-size: 80px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+input {
+    width: 250px;
+}
+fieldset#madlibs-content {
     text-align: center;
 }
