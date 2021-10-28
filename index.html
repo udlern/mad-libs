@@ -6,8 +6,9 @@
   </head>
   <body>
     <script type="text/javascript" src="./js/index.js"></script>
+
     <h1>MadLibs</h1>
-    <form action="form.html" method="GET" onClick="submitLibs">
+    <form id="madlibs">
       <fieldset id="madlibs-content">
         <legend>MadLibs Content:</legend>
         <input
@@ -92,7 +93,7 @@
           type="text"
           id="superlative-adj"
           name="superlative-adj"
-          placeholder="Write a superlative oadjective!"
+          placeholder="Write a superlative adjective!"
         /><br /><br />
         <input
           type="text"
@@ -106,7 +107,9 @@
           name="adj-4"
           placeholder="Write an adjective!"
         /><br /><br />
-        <input type="submit" onClick="return false">
+        <button id="submit-button" type="button" onclick="onClick()">
+          Submit
+        </button>
       </fieldset>
     </form>
   </body>
