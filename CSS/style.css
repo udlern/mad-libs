@@ -12,3 +12,26 @@ input {
 fieldset#madlibs-content {
     text-align: center;
 }
+
+div#story-starts {
+    font-family: creepster;
+    color: darkgreen;
+    font-size: 40px;
+}
+h2#form-heading {
+    color: darkslateblue;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body#form-page {
+    text-align: center;
+}
+button#view-button {
+    color: darkslateblue;
+    font-weight: bold;
+}
+
+
+
+
