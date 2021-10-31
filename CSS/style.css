@@ -14,9 +14,10 @@ fieldset#madlibs-content {
 }
 
 div#story-starts {
-    font-family: creepster;
+    font-family: 'Courier New', Courier, monospace;
     color: darkgreen;
     font-size: 40px;
+    font-weight: bold;
 }
 h2#form-heading {
     color: darkslateblue;

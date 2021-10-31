@@ -4,7 +4,13 @@ function onClick(event) {
   console.log(event);
   document
     .querySelectorAll("input")
-    .forEach((input) => localStorage.setItem(input.id, input.value));
+    .forEach((input) => {
+      if (input.value === "") {
+        alert("Please: " + input.placeholder);
+        return;
+      }
+      localStorage.setItem(input.id, input.value)
+    });
   console.log(allMadLibsContent);
   document.location.href = "form.html";
   return false;
